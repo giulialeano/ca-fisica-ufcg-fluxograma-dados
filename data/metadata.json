@@ -1,0 +1,12 @@
+{
+    "curso": "Física - Bacharelado",
+    "instituicao": "CCT/UFCG",
+    "responsavel": "Centro Acadêmico de Física - UFCG",
+    "versao": "2026-revisado",
+    "carga_total": 2640,
+    "obrigatorias": 1860,
+    "comp_obrigatorias": 240,
+    "comp_optativas": 240,
+    "flexiveis": 300,
+    "extensao_obrigatoria": 260
+}

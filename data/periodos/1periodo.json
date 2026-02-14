@@ -1,0 +1,54 @@
+{
+    "periodo": "1º Período",
+    "letra": "A",
+    "disciplinas":[
+        {
+            "linha": 1,
+            "nome": "Álgebra Vetorial e Geometria Analítica",
+            "codigo": null,
+            "pre_requisitos": [],
+            "co_requisitos": [],
+            "carga": 60,
+            "creditos": 4
+                
+        },
+        {
+            "linha": 2,
+            "nome": "Cálculo Diferencial e Integral I",
+            "codigo": null,
+            "pre_requisitos": [],
+            "co_requisitos":[],
+            "carga": 60,
+            "creditos": 4
+        },
+        {
+            "linha": 3,
+            "nome": "Introdução à Física",
+            "codigo": null,
+            "pre_requisitos": [],
+            "co_requisitos": [],
+            "carga": 60,
+            "creditos": 4
+
+        },
+        {
+            "linha": 4,
+            "nome": "Química Geral",
+            "codigo": null,
+            "pre_requisitos": [],
+            "co_requisitos": [],
+            "carga": 60,
+            "creditos": 4
+        },
+        {
+            "linha": 5,
+            "nome": "Introdução à Ciência da Computação",
+            "codigo": null,
+            "pre_requisitos": [],
+            "co_requisitos": [],
+            "carga": 60,
+            "creditos": 4
+
+        }
+    ]
+}
