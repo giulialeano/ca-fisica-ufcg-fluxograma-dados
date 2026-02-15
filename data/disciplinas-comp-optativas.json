@@ -1,156 +1,288 @@
-[
+{
+  "areas": [
     {
-        "nome": "Introdução à Geometria Diferencial",
-        "carga": 60,
-        "creditos":4,
-        "pre":["D2"]
+      "area": "I",
+      "nome": "Filosofia e Lingüística",
+      "disciplinas": [
+        {
+          "codigo": "OPT-I-1",
+          "nome": "Língua Portuguesa",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-I-2",
+          "nome": "Língua Estrangeira (Inglês)",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-I-3",
+          "nome": "Língua Estrangeira (Francês)",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-I-4",
+          "nome": "LIBRAS",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        }
+      ]
     },
     {
-        "nome": "Álgebra Linear II",
-        "carga":60,
-        "creditos":4,
-        "pre":["B1"]
+      "area": "II",
+      "nome": "Engenharia e Química",
+      "disciplinas": [
+        {
+          "codigo": "OPT-II-1",
+          "nome": "Ciências do Ambiente",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        }
+      ]
     },
     {
-        "nome": "Introdução à Equações Diferenciais Parciais",
-        "carga":60,
-        "creditos":4,
-        "pre":["C1", "D2"]
+      "area": "III",
+      "nome": "Matemática",
+      "disciplinas": [
+        {
+          "codigo": "OPT-III-1",
+          "nome": "Introdução à Geometria Diferencial",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["D2"]
+        },
+        {
+          "codigo": "OPT-III-2",
+          "nome": "Álgebra Linear II",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["B1"]
+        },
+        {
+          "codigo": "OPT-III-3",
+          "nome": "Introdução Equações Diferenciais Parciais",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["C1", "D2"]
+        },
+        {
+          "codigo": "OPT-III-4",
+          "nome": "Introdução à Probabilidade",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["B1", "B2"]
+        },
+        {
+          "codigo": "OPT-III-5",
+          "nome": "Introdução à Estatística",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["OPT-III-4"]
+        },
+        {
+          "codigo": "OPT-III-6",
+          "nome": "Funções de uma Variável Complexa",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["C3"]
+        }
+      ]
     },
     {
-        "nome": "Introdução à Probabilidade",
-        "carga":60,
-        "creditos":4,
-        "pre":["B1", "B2"],
-        "codigo": "III4"
+      "area": "IV",
+      "nome": "Tecnologia e Artes",
+      "disciplinas": [
+        {
+          "codigo": "OPT-IV-1",
+          "nome": "Circuitos Lógicos",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": [],
+          "co": ["OPT-IV-2"]
+        },
+        {
+          "codigo": "OPT-IV-2",
+          "nome": "Laboratório de Circuitos Lógicos",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": [],
+          "co": ["OPT-IV-1"]
+        }
+      ]
     },
     {
-        "nome": "Introdução à Estatística",
-        "carga":60,
-        "creditos":4,
-        "pre":["III4"]
+      "area": "V",
+      "nome": "Ciências Sociais",
+      "disciplinas": [
+        {
+          "codigo": "OPT-V-1",
+          "nome": "Economia",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-V-2",
+          "nome": "Administração",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-V-3",
+          "nome": "Prática Desportiva",
+          "tipo": "comp_optativa",
+          "carga": 30,
+          "carga_str": "30 (2)",
+          "credito": 2,
+          "pre": []
+        }
+      ]
     },
     {
-        "nome":"Funções de uma Variável Complexa",
-        "carga":60,
-        "creditos":4,
-        "pre":["C3"]
+      "area": "VI",
+      "nome": "Física",
+      "disciplinas": [
+        {
+          "codigo": "OPT-VI-1",
+          "nome": "Tópicos Especiais em Física",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-VI-2",
+          "nome": "Seminários de Física",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        }
+      ]
     },
     {
-        "nome":"Tópicos de História e Ensino da Física",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
+      "area": "VII",
+      "nome": "Licenciatura em Física",
+      "disciplinas": [
+        {
+          "codigo": "OPT-VII-1",
+          "nome": "Tópicos de História e Ensino da Física",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-VII-2",
+          "nome": "Prática de Ensino da Física na Educ. Bás.",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-VII-3",
+          "nome": "Projeto Educacional A",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["B3", "B4"]
+        },
+        {
+          "codigo": "OPT-VII-4",
+          "nome": "Projeto Educacional B",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["D3", "D4"]
+        },
+        {
+          "codigo": "OPT-VII-5",
+          "nome": "Instrumentação p/ o Ensino da Física A",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        },
+        {
+          "codigo": "OPT-VII-6",
+          "nome": "Instrumentação p/ o Ensino da Física B",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["OPT-VII-5"]
+        },
+        {
+          "codigo": "OPT-VII-7",
+          "nome": "Metodologia e Prática do Ensino de Física",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": ["D3"]
+        }
+      ]
     },
     {
-        "nome":"Prática de Ensino da Física na Educação Básica",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome":"Projeto Educacional A",
-        "carga":60,
-        "creditos":4,
-        "pre":["B3", "B4"]
-    },
-    {
-        "nome": "Projeto Educacional B",
-        "carga":60,
-        "creditos":4,
-        "pre":["D3", "D4"]
-    },
-    {
-        "nome": "Instrumentação p/ o Ensino da Física A",
-        "carga":60,
-        "creditos":4,
-        "pre":[],
-        "codigo":"VII5"
-    },
-    {
-        "nome": "Instrumentação p/ o Ensino da Física B",
-        "carga":60,
-        "creditos":4,
-        "pre":["VII5"]
-    },
-    {
-        "nome": "Metodologia e Prática do Ensino de Física",
-        "carga":60,
-        "creditos":4,
-        "pre":["D3"]
-    },
-    {
-        "nome":"Língua Portuguesa",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome": "Língua Estrangeira (Inglês)",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome": "Língua Estrangeira (Francês)",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome": "Libras",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome":"Ciências do Ambiente",
-        "carga":60,
-        "creditos":4,
-        "pre":[]
-    },
-    {
-        "nome":"Circuitos Lógicos",
-        "carga":60,
-        "creditos":4,
-        "co":["IV2"],
-        "codigo":"IV1"
-    },
-    {
-        "nome":"Laboratório de Circuitos Lógicos",
-        "carga":60,
-        "creditos":4,
-        "co":["IV1"],
-        "codigo":"IV2"
-    },
-    {
-        "nome": "Economia",
-        "carga":60,
-        "creditos":4
-    },
-    {
-        "nome": "Administração",
-        "carga":60,
-        "creditos":4
-    },
-    {
-        "nome": "Tópicos Especiais em Física",
-        "carga":60,
-        "creditos":4
-    },
-    {
-        "nome": "Seminários de Física",
-        "carga":60,
-        "creditos":4
-    },
-    {
-        "nome": "Prática Desportiva",
-        "carga":30,
-        "creditos":2
-    },
-    {
-        "nome":"Didática",
-        "carga":60,
-        "creditos":4
+      "area": "VIII",
+      "nome": "Educação",
+      "disciplinas": [
+        {
+          "codigo": "OPT-VIII-1",
+          "nome": "Didática",
+          "tipo": "comp_optativa",
+          "carga": 60,
+          "carga_str": "60 (4)",
+          "credito": 4,
+          "pre": []
+        }
+      ]
     }
-]
+  ]
+}

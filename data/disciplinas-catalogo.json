@@ -1,250 +1,374 @@
 [
-    {
-        "codigo": "A1",
-        "nome": "Álg. Vetorial e Geom. Analítica",
-        "tipo": "obrigatoria",
-        "periodo": 1,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "A2",
-        "nome": "Cálculo Diferencial e Integral I",
-        "tipo": "obrigatoria",
-        "periodo": 1,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-       "codigo": "A3",
-       "nome": "Introdução à Física",
-       "tipo": "obrigatoria",
-       "periodo": 1,
-       "carga": 60,
-       "credito": 4
-    },
-    {
-        "codigo": "A4",
-        "nome": "Química Geral",
-        "tipo": "obrigatoria",
-        "periodo": 1,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "A5",
-        "nome": "Introd. à Ciência da Computação",
-        "tipo": "obrigatoria",
-        "periodo": 1,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "B1",
-        "nome": "Álgebra Linear I",
-        "tipo": "obrigatoria",
-        "periodo": 2,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "B2",
-        "nome": "Cálculo Diferencial e Integral II",
-        "tipo": "obrigatoria",
-        "periodo": 2,
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "B3",
-        "nome": "Física Geral I",
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito": 4,
-        "periodo": 2
-    },
-    {
-        "nome": "Eqs. Diferenciais Lineares",
-        "periodo": 3,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "codigo": "C1",
-        "credito": 4
-    },
-    {
-        "codigo":"C2",
-        "nome":"Cálculo Diferencial e Integral III",
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4,
-        "periodo": 3
-    },
-    {
-        "codigo": "C3",
-        "nome":"Física Geral II",
-        "periodo":3,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "C4",
-        "nome": "Física Experimental I",
-        "periodo": 3,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo":"D1",
-        "nome": "Física Matemática I",
-        "periodo": 4,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "D2",
-        "nome": "Cálculo Avançado",
-        "periodo": 4,
-        "tipo": "obrigatoria",
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "D3",
-        "nome": "Física Geral III",
-        "periodo": 4,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "D4",
-        "nome": "Física Experimental II",
-        "tipo":"obrigatoria",
-        "periodo":4,
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "E1",
-        "nome": "Física Matemática II",
-        "periodo":5,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "E2",
-        "nome": "Termodinâmica",
-        "periodo":5,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo":"E3",
-        "nome": "Físical Geral IV",
-        "periodo": 5,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "E4",
-        "nome": "Mecânica Clássica I",
-        "periodo": 5,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "F1",
-        "nome": "Eletromagnetismo I",
-        "periodo": 6,
-        "tipo": "obrigatoria",
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "F2",
-        "nome": "Laboratório de Física Moderna",
-        "periodo": 6,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito": 4
-    },
-    {
-        "codigo":"F3",
-        "nome": "Física Moderna",
-        "periodo":6,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "F4",
-        "nome": "Mecânica Clássica II",
-        "periodo":6,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "G1",
-        "nome": "Eletromagnetismo II",
-        "periodo": 7,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito":4
-    },
-    {
-        "codigo": "G2",
-        "nome": "Mecânica Estatística I",
-        "periodo": 7,
-        "tipo":"obrigatoria",
-        "carga": 60,
-        "credito": 4
-    },
-    {
-        "codigo": "G3",
-        "nome": "Mecânica Quântica I",
-        "periodo": 7,
-        "tipo":"obrigatoria",
-        "carga":60,
-        "credito": 4
-    },
-    {
-        "codigo": "G4",
-        "nome": "Estado Sólido I",
-        "periodo": 7,
-        "carga": 60,
-        "tipo":"obrigatoria",
-        "credito":4
-    },
-    {
-        "codigo":"H1",
-        "nome":"TCC",
-        "periodo":8,
-        "carga":60,
-        "tipo":"obrigatoria",
-        "credito":4
-    },
-    {
-        "codigo":"H2",
-        "nome":"Mecânica Estatística II",
-        "tipo":"obrigatoria",
-        "carga":60,
-        "periodo":8,
-        "credito":4
-    },
-    {
-        "codigo": "H3",
-        "nome": "Mecânica Quântica II",
-        "tipo":"obrigatoria",
-        "periodo":8,
-        "carga":60,
-        "credito":4
-    }
+  {
+    "codigo": "A1",
+    "nome": "Álg. Vetorial e Geom. Analítica",
+    "tipo": "obrigatoria",
+    "periodo": 1,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "A2",
+    "nome": "Cálculo Diferencial e Integral I",
+    "tipo": "obrigatoria",
+    "periodo": 1,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "A3",
+    "nome": "Introdução à Física",
+    "tipo": "obrigatoria",
+    "periodo": 1,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "A4",
+    "nome": "Química Geral",
+    "tipo": "obrigatoria",
+    "periodo": 1,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "A5",
+    "nome": "Introd. à Ciência da Computação",
+    "tipo": "obrigatoria",
+    "periodo": 1,
+    "linha": 5,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "B1",
+    "nome": "Álgebra Linear I",
+    "tipo": "obrigatoria",
+    "periodo": 2,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["A1"],
+    "co": []
+  },
+  {
+    "codigo": "B2",
+    "nome": "Cálculo Diferencial e Integral II",
+    "tipo": "obrigatoria",
+    "periodo": 2,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["A2"],
+    "co": []
+  },
+  {
+    "codigo": "B3",
+    "nome": "Física Geral I",
+    "tipo": "obrigatoria",
+    "periodo": 2,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": [],
+    "co": []
+  },
+  {
+    "codigo": "C1",
+    "nome": "Eqs. Diferenciais Lineares",
+    "tipo": "obrigatoria",
+    "periodo": 3,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["B1", "B2"],
+    "co": []
+  },
+  {
+    "codigo": "C2",
+    "nome": "Cálculo Diferencial e Integral III",
+    "tipo": "obrigatoria",
+    "periodo": 3,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["A1", "B2"],
+    "co": []
+  },
+  {
+    "codigo": "C3",
+    "nome": "Física Geral II",
+    "tipo": "obrigatoria",
+    "periodo": 3,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["B2", "B3"],
+    "co": []
+  },
+  {
+    "codigo": "C4",
+    "nome": "Física Experimental I",
+    "tipo": "obrigatoria",
+    "periodo": 3,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["B3"],
+    "co": []
+  },
+  {
+    "codigo": "D1",
+    "nome": "F. Matemática I",
+    "tipo": "obrigatoria",
+    "periodo": 4,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["C1", "C2"],
+    "co": []
+  },
+  {
+    "codigo": "D2",
+    "nome": "Cálculo Avançado",
+    "tipo": "obrigatoria",
+    "periodo": 4,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["B1", "C2"],
+    "co": []
+  },
+  {
+    "codigo": "D3",
+    "nome": "Física Geral III",
+    "tipo": "obrigatoria",
+    "periodo": 4,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["C2", "C3"],
+    "co": []
+  },
+  {
+    "codigo": "D4",
+    "nome": "Física Experimental II",
+    "tipo": "obrigatoria",
+    "periodo": 4,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["C4"],
+    "co": []
+  },
+  {
+    "codigo": "E1",
+    "nome": "F. Matemática II",
+    "tipo": "obrigatoria",
+    "periodo": 5,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["D1"],
+    "co": []
+  },
+  {
+    "codigo": "E2",
+    "nome": "Termodinâmica",
+    "tipo": "obrigatoria",
+    "periodo": 5,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["C2", "C3"],
+    "co": []
+  },
+  {
+    "codigo": "E3",
+    "nome": "Física Geral IV",
+    "tipo": "obrigatoria",
+    "periodo": 5,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["D3"],
+    "co": []
+  },
+  {
+    "codigo": "E4",
+    "nome": "Mecânica Clássica I",
+    "tipo": "obrigatoria",
+    "periodo": 5,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["D1"],
+    "co": []
+  },
+  {
+    "codigo": "F1",
+    "nome": "Eletromagnetismo I",
+    "tipo": "obrigatoria",
+    "periodo": 6,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["D2", "E3"],
+    "co": []
+  },
+  {
+    "codigo": "F2",
+    "nome": "Laboratório de Física Moderna",
+    "tipo": "obrigatoria",
+    "periodo": 6,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["D4"],
+    "co": []
+  },
+  {
+    "codigo": "F3",
+    "nome": "Física Moderna",
+    "tipo": "obrigatoria",
+    "periodo": 6,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["E3"],
+    "co": []
+  },
+  {
+    "codigo": "F4",
+    "nome": "Mecânica Clássica II",
+    "tipo": "obrigatoria",
+    "periodo": 6,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["E4"],
+    "co": []
+  },
+  {
+    "codigo": "G1",
+    "nome": "Eletromagnetismo II",
+    "tipo": "obrigatoria",
+    "periodo": 7,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["F1"],
+    "co": []
+  },
+  {
+    "codigo": "G2",
+    "nome": "Mecânica Estatística I",
+    "tipo": "obrigatoria",
+    "periodo": 7,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["E2", "F3"],
+    "co": []
+  },
+  {
+    "codigo": "G3",
+    "nome": "Mecânica Quântica I",
+    "tipo": "obrigatoria",
+    "periodo": 7,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["E1", "E4", "F3"],
+    "co": []
+  },
+  {
+    "codigo": "G4",
+    "nome": "Estado Sólido I",
+    "tipo": "obrigatoria",
+    "periodo": 7,
+    "linha": 4,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["F3"],
+    "co": []
+  },
+  {
+    "codigo": "H1",
+    "nome": "TCC",
+    "tipo": "obrigatoria",
+    "periodo": 8,
+    "linha": 1,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["F1", "G2", "G3"],
+    "co": []
+  },
+  {
+    "codigo": "H2",
+    "nome": "Mecânica Estatística II",
+    "tipo": "obrigatoria",
+    "periodo": 8,
+    "linha": 2,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["G2"],
+    "co": []
+  },
+  {
+    "codigo": "H3",
+    "nome": "Mecânica Quântica II",
+    "tipo": "obrigatoria",
+    "periodo": 8,
+    "linha": 3,
+    "carga": 60,
+    "carga_str": "60 (4)",
+    "credito": 4,
+    "pre": ["G3"],
+    "co": []
+  }
 ]
