@@ -1,0 +1,156 @@
+[
+    {
+        "nome": "Introdução à Geometria Diferencial",
+        "carga": 60,
+        "creditos":4,
+        "pre":["D2"]
+    },
+    {
+        "nome": "Álgebra Linear II",
+        "carga":60,
+        "creditos":4,
+        "pre":["B1"]
+    },
+    {
+        "nome": "Introdução à Equações Diferenciais Parciais",
+        "carga":60,
+        "creditos":4,
+        "pre":["C1", "D2"]
+    },
+    {
+        "nome": "Introdução à Probabilidade",
+        "carga":60,
+        "creditos":4,
+        "pre":["B1", "B2"],
+        "codigo": "III4"
+    },
+    {
+        "nome": "Introdução à Estatística",
+        "carga":60,
+        "creditos":4,
+        "pre":["III4"]
+    },
+    {
+        "nome":"Funções de uma Variável Complexa",
+        "carga":60,
+        "creditos":4,
+        "pre":["C3"]
+    },
+    {
+        "nome":"Tópicos de História e Ensino da Física",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome":"Prática de Ensino da Física na Educação Básica",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome":"Projeto Educacional A",
+        "carga":60,
+        "creditos":4,
+        "pre":["B3", "B4"]
+    },
+    {
+        "nome": "Projeto Educacional B",
+        "carga":60,
+        "creditos":4,
+        "pre":["D3", "D4"]
+    },
+    {
+        "nome": "Instrumentação p/ o Ensino da Física A",
+        "carga":60,
+        "creditos":4,
+        "pre":[],
+        "codigo":"VII5"
+    },
+    {
+        "nome": "Instrumentação p/ o Ensino da Física B",
+        "carga":60,
+        "creditos":4,
+        "pre":["VII5"]
+    },
+    {
+        "nome": "Metodologia e Prática do Ensino de Física",
+        "carga":60,
+        "creditos":4,
+        "pre":["D3"]
+    },
+    {
+        "nome":"Língua Portuguesa",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome": "Língua Estrangeira (Inglês)",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome": "Língua Estrangeira (Francês)",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome": "Libras",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome":"Ciências do Ambiente",
+        "carga":60,
+        "creditos":4,
+        "pre":[]
+    },
+    {
+        "nome":"Circuitos Lógicos",
+        "carga":60,
+        "creditos":4,
+        "co":["IV2"],
+        "codigo":"IV1"
+    },
+    {
+        "nome":"Laboratório de Circuitos Lógicos",
+        "carga":60,
+        "creditos":4,
+        "co":["IV1"],
+        "codigo":"IV2"
+    },
+    {
+        "nome": "Economia",
+        "carga":60,
+        "creditos":4
+    },
+    {
+        "nome": "Administração",
+        "carga":60,
+        "creditos":4
+    },
+    {
+        "nome": "Tópicos Especiais em Física",
+        "carga":60,
+        "creditos":4
+    },
+    {
+        "nome": "Seminários de Física",
+        "carga":60,
+        "creditos":4
+    },
+    {
+        "nome": "Prática Desportiva",
+        "carga":30,
+        "creditos":2
+    },
+    {
+        "nome":"Didática",
+        "carga":60,
+        "creditos":4
+    }
+]

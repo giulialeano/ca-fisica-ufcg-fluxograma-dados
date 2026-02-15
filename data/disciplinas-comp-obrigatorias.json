@@ -1,0 +1,100 @@
+[
+    {
+        "codigo": "BC1",
+        "nome": "Elementos de Astronomia e Cartografia",
+        "periodo_sugerido": 3,
+        "carga": 60,
+        "credito":4,
+        "pre": ["A1"],
+        "co": []
+    },
+    {
+        "codigo": "BD1",
+        "nome": "Mecânica dos Fluídos",
+        "periodo_sugerido":4,
+        "carga": 60,
+        "credito": 4,
+        "pre": ["C1", "C2"],
+        "co": []
+    },
+    {
+        "codigo": "BD2",
+        "nome": "Cálculo Numérico",
+        "periodo_sugerido": 4,
+        "carga":60,
+        "credito":4,
+        "pre":["A5", "C1"],
+        "co": []
+    },
+    {
+        "codigo": "BE1",
+        "nome": "Instrumentação Científica",
+        "periodo_sugerido":5,
+        "carga":60,
+        "credito":4,
+        "pre":["D3"],
+        "co":[]
+    },
+    {
+        "codigo":"BF1",
+        "nome": "Relatividade Especial",
+        "periodo_sugerido":6,
+        "carga":60,
+        "credito":4,
+        "pre":["D1", "E3"]
+    },
+    {
+        "codigo":"BG1",
+        "nome": "Introdução à Teoria Quântica da Informação",
+        "periodo_sugerido":7,
+        "carga":60,
+        "credito":4,
+        "pre":["B1","F3"],
+        "co":[]
+    },
+    {
+        "codigo": "BH1",
+        "nome": "Introdução à Física Nuclear",
+        "periodo_sugerido":8,
+        "carga":60,
+        "credito":4,
+        "pre":["G3"],
+        "co":[]
+    },
+    {
+        "codigo": "BH2",
+        "nome": "Estado Sólido II",
+        "periodo_sugerido":8,
+        "carga":60,
+        "credito":4,
+        "pre":["G4"],
+        "co":["H3"]
+    },
+    {
+        "codigo": "BH3",
+        "nome": "Introdução à Espectroscopia",
+        "periodo_sugerido":8,
+        "carga":60,
+        "credito":4,
+        "pre":[],
+        "co":["H3"]
+    },
+    {
+        "codigo":"BH4",
+        "nome": "Introdução à Teoria de Campos e Partículas",
+        "periodo_sugerido":8,
+        "carga":60,
+        "credito":4,
+        "pre":["F4", "G1", "G3"],
+        "co":[]
+    },
+    {
+        "codigo":"BH5",
+        "nome": "Óptica Física",
+        "periodo_sugerido":8,
+        "carga":60,
+        "credito":4,
+        "pre":["G1"],
+        "co":[]
+    }
+]
